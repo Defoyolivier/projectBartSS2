@@ -10,7 +10,6 @@ public class Character : MonoBehaviour
     protected bool m_HaveInput;
     protected int m_damage;
 
-    
 
     public void GiveDamage(int i_damage)
     {
@@ -25,4 +24,5 @@ public class Character : MonoBehaviour
     {
         Debug.Log("Died");
     }
+
 }

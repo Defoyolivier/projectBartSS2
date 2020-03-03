@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemy : Character
 {
-    protected PlayerController Player;
+
 
 
 

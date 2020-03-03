@@ -8,11 +8,15 @@ public class PlayerController : Character
     [SerializeField] private Sythe m_Syth;
     [SerializeField] private Taupe taupitaupe;
     [SerializeField] private Rigidbody m_PlayerRb;
+    public GameObject PlayerGO;
+    public Animator animatorRef;
     private Vector3 m_Velocity;
     private float m_MoveSpeed = 4;
     private float m_JumpHeight = 300f;
     private bool m_CanJump = true;
     public bool m_OnGround = false;
+    private float attackCD = 2;
+    public float knockUpForce = 300f;
 
     void Update()
     {
@@ -22,6 +26,7 @@ public class PlayerController : Character
         }
         PlayerMove();
         Attack();
+
     }
 
     void PlayerMove()
@@ -74,7 +79,7 @@ public class PlayerController : Character
         {
             m_OnGround = true;
         }
-        else
+        else if(collision.gameObject.tag != "Dirt")
         {
             m_OnGround = false;
         }
@@ -82,12 +87,15 @@ public class PlayerController : Character
 
     private void Attack()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0) && attackCD >= 2)
         {
             Debug.Log("Attack");
-            m_Syth.Swing();
-            
-
+            animatorRef.SetBool("Swing", true);
+            attackCD = 0;
+        }
+        else
+        {
+            attackCD += Time.deltaTime;
         }
     }
 
@@ -95,7 +103,7 @@ public class PlayerController : Character
     {
         if (taupitaupe.m_canKnockup)
         {
-            Vector3 knockup = new Vector3(0, 400f, 0);
+            Vector3 knockup = new Vector3(0, 150f, 0);
             m_PlayerRb.AddForce(knockup);
             taupitaupe.m_canKnockup = false;
         }
@@ -106,5 +114,7 @@ public class PlayerController : Character
     {
         
     }
+
+    
 
 }

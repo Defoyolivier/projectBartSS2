@@ -4,27 +4,38 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Vector2 position;
+    private Vector3 m_Velocity;
 
     private float speed = 3;
 
     [SerializeField] private SpriteRenderer spriteRenderer;
-
-
+    [SerializeField] private Rigidbody2D PlayerRb;
+    [SerializeField] private Dialogue dialogueRef;
     [SerializeField] private Animator animatorRef;
     private int direction;
     bool isRunning = false;
+    bool hasChange = false;
+
 
     private void Update()
     {
-        CheckInput();
-        MovePlayer();
+        if (!dialogueRef.triggered)
+        {
+            CheckInput();
+        }
+        else
+        {
+            direction = 0;
+            isRunning = true;
+            hasChange = true;
+        }
     }
 
     private void CheckInput()
     {
 
-        bool hasChange = false;
+        hasChange = false;
+        m_Velocity = PlayerRb.velocity;
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             if (direction != -1)
@@ -48,18 +59,20 @@ public class PlayerController : MonoBehaviour
             direction = 0;
             hasChange = true;
         }
+        m_Velocity.x = direction * speed;
+        PlayerRb.velocity = m_Velocity;
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isRunning = true;
             hasChange = true;
-            speed = 6;
+            speed = 4;
         }
         else
         {
             isRunning = false;
             hasChange = true;
-            speed = 3;
+            speed = 2;
         }
 
         if (hasChange)
@@ -70,14 +83,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void MovePlayer()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
-    }
-
-    private void PlayEvent()
-    {
-
+        dialogueRef.triggered = true;
     }
 
 

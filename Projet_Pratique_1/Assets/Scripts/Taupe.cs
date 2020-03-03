@@ -1,28 +1,44 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Taupe : enemy
 {
-    
+    [SerializeField] private PlayerController Player;
+    [SerializeField] private NavMeshAgent navMeshAgent;
+    [SerializeField] private Rigidbody TaupeRBRef;
+    [SerializeField] private Animator animatorRef;
     public Transform m_PlayerPos;
     public bool m_PlayerOnGround = false;
     private float m_distTaupe;
     public bool m_canKnockup = true;
 
+    [SerializeField]private List<Transform> m_WayPoint;
 
     private void Awake()
     {
+        
         m_Health = 3;
         m_Speed = 4.5f;
         m_HaveInput = true;
-        m_damage = 1;
+        m_damage = 5;
     }
 
     private void Update()
     {
-        Chase();
-        
+        if (!navMeshAgent.pathPending)
+        {
+            if (!Player.m_OnGround)
+            {
+                Patrol(Random.Range(0, 2));
+
+            }
+            else
+            {
+                Chase();
+            }
+        }
     }
 
     private void Chase()
@@ -32,24 +48,36 @@ public class Taupe : enemy
         if (Player.m_OnGround && m_distTaupe >= 0.8)
         {
             transform.LookAt(NewPlayerPos);
-            transform.position += transform.forward * m_Speed * Time.deltaTime;
+            
         }
-        else if (Player.m_OnGround && m_canKnockup && m_distTaupe <= 0.8)
+        else if (Player.m_OnGround && m_canKnockup && m_distTaupe <= 1 )
         {
             Player.KnockUp();
-            Combat();
+            animatorRef.SetBool("AboveGround", true);
         }
+    }
+
+    private void ChaseNavMesh()
+    {
+
     }
 
     private void Combat()
     {
-        transform.position += transform.up;
-
+        
+        Player.GiveDamage(m_damage);
     }
 
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hit");
+    }
 
-
+    private void Patrol(int index)
+    {
+        navMeshAgent.SetDestination(m_WayPoint[index].position);
+    }
 
 
 
