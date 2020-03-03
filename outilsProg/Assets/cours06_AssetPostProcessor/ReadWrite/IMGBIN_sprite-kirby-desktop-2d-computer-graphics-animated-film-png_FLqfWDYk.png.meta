@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 6154a16a6b233a44c93dd60ed3f69474
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_0
+    21300002: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_1
+    21300004: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_2
+    21300006: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_3
+    21300008: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_4
+    21300010: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_5
+    21300012: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_6
+    21300014: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_7
+    21300016: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_8
+    21300018: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_9
+    21300020: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_10
+    21300022: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_11
+    21300024: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_12
+    21300026: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_13
+    21300028: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_14
+    21300030: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_15
+    21300032: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_16
+    21300034: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_17
+    21300036: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_18
+    21300038: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_19
+    21300040: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_20
+    21300042: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_21
+    21300044: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_22
+    21300046: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_23
+    21300048: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_24
+    21300050: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_25
+    21300052: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_26
+    21300054: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_27
+    21300056: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_28
+    21300058: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_29
+    21300060: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_30
+    21300062: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_31
+    21300064: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_32
+    21300066: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_33
+    21300068: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_34
+    21300070: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_35
+    21300072: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_36
+    21300074: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_37
+    21300076: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_38
+    21300078: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_39
+    21300080: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_40
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16917c04b0ca2b04b9381f145d13014e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 450
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584f8bbbcdb0e0b428a1516b22329575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 363
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73357655acd2aa74a8f041f43ead9633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 364
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32eb8fa7ac83fd46b25ad777265b93c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 364
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f13bbf15e8a19346ac75534ab03e468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 364
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b542e8e787904dbcb08d9569b732c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 365
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da0fb5662a6d904aa206f994e585950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 362
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59966512fca2a3449b0eafcd3090872e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 365
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60131282cfaa1b249bd4f8140a7ed308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 365
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ececb9ec6c39747a4e4e666abed9fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 364
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e11f727f4f1854abce04f1a3072977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 364
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7825989fce1f7c94bb980d72b02db50d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 273
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3baeeed5d98df748b5a5e8d740dd370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 274
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c238a7a65c0c8046a5a82eaccaf403b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 274
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aed422a3fdbcbb4e9c5eab0c1f7f9f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 272
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb6343100279042ab044e54108eb7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 272
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d170541bf338204ba9e701d88feb5ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 273
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afcd22b0ccec2a41bae6bb794f5d86b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_18
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 274
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2904e4aa76ff165468732cc1142678f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 178
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972a185106aae454f9bac5ced0c646c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b14903c4bf8114a94e9cc6ea7743ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 177
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af36b0849b350d4cb5df6c9b75eca21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_22
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 178
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee35503cca26240aaed3282bc0794c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 178
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676548f236eea4e488ff3492c1d9a535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_24
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 178
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7611e95c6e61fbc4a960db50cfa46fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_25
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 178
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d408f37fb8b736648800fac509063ced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_26
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 178
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec08c29cbf7fea4fbabfa59ae9e08b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 177
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91bf8039a3d74a47b5082f2c90e5572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 89
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31c101b249de24f8fad2746b99ee2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 89
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98507b9f3c9959439e07a057e9839cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 90
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a918d4646eede8c41ac433184964e3a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 91
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd55f15fa4a794db7d19ee109ecae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 91
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7a0ce41fb0af4194c2984747fe057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab8b5d321206dc40a1cc225a2b0f851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad772a1e403de94eb7fdab0f144aa6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_35
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b458fe2ab12a449b750f77b81aeedb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b88b64fae67ac347bd9890c8d84cf84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_37
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a77c60a1dcc33049bc785c079bb7e10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a39fe520dddd14cab820037c4945ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_39
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d657cb1067e5148850c6f0b627ff9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_sprite-kirby-desktop-2d-computer-graphics-animated-film-png_FLqfWDYk_40
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc0e5f645281d540a8764cc0752dccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5b665d0492a7d2f42ade11fa6c707764
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
