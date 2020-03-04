@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D PlayerRb;
     [SerializeField] private Dialogue dialogueRef;
     [SerializeField] private Animator animatorRef;
+    [SerializeField] private AudioSource kirbySong;
+    [SerializeField] private AudioSource BackStreetSong;
+    [SerializeField] private AudioSource Encounter;
     private int direction;
     bool isRunning = false;
     bool hasChange = false;
@@ -26,8 +29,13 @@ public class PlayerController : MonoBehaviour
         else
         {
             direction = 0;
-            isRunning = true;
-            hasChange = true;
+            isRunning = false;
+            animatorRef.SetInteger("direction", direction);
+            animatorRef.SetBool("isRunning", isRunning);
+            kirbySong.Stop();
+            BackStreetSong.Stop();
+            Encounter.Play();
+
         }
     }
 
@@ -67,12 +75,14 @@ public class PlayerController : MonoBehaviour
             isRunning = true;
             hasChange = true;
             speed = 4;
+            kirbySong.Play();
         }
         else
         {
             isRunning = false;
             hasChange = true;
             speed = 2;
+            BackStreetSong.Play();
         }
 
         if (hasChange)

@@ -5,18 +5,17 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
-    [SerializeField] private GameObject kirbyBox;
-    [SerializeField] private GameObject KingDeBox;
+    [SerializeField] private GameObject DialogueBox;
+    [SerializeField] private GameObject NextButton;
     public string KingDeText1 = "Testing stuff";
     private string currentText = "";
     public string fullText;
     public bool triggered = false;
     public List<string> TextDialogue;
     private int indexText = 0;
+    private bool dialogue = true;
+    private Coroutine DialogueCoRout;
 
-
-    private Coroutine DialogueKirbyCoRout;
-    private Coroutine DialogueKingDeCoRout;
 
 
     private void Start()
@@ -32,24 +31,22 @@ public class Dialogue : MonoBehaviour
     {
         if (triggered)
         {
-            if (DialogueKirbyCoRout == null)
+            if (DialogueCoRout == null)
             {
-                DialogueKirbyCoRout = StartCoroutine(ShowText(TextDialogue, kirbyBox));
-                indexText += 1;
-                DialogueKingDeCoRout = StartCoroutine(ShowText(TextDialogue, KingDeBox));
+                DialogueCoRout = StartCoroutine(ShowText(TextDialogue, DialogueBox));
+
 
             }
         }
     }
 
+
     IEnumerator ShowText(List<string> i_Text, GameObject dialogueBox)
     {
-        
-
-
         if (!dialogueBox.activeSelf)
         {
             dialogueBox.SetActive(true);
+            NextButton.SetActive(true);
         }
 
 
@@ -61,10 +58,16 @@ public class Dialogue : MonoBehaviour
             dialogueBox.GetComponentInChildren<Text>().text = currentText;
 
             yield return new WaitForSeconds(0.1f);
-
+            
         }
+
+        
+        
+
 
         
         yield return true;
     }
+
+
 }

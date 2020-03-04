@@ -8,6 +8,7 @@ public class SpriteController : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private float minSpritePositionX;
     [SerializeField] private float maxSpritePositionX;
+    [SerializeField] private Dialogue dialogue;
 
     private Vector3 position = Vector3.zero;
     private int direction = 0;
@@ -23,8 +24,12 @@ public class SpriteController : MonoBehaviour
     }
     private void Update()
     {
-        CheckInput();
-        ControlMouvement();
+        if (!dialogue.triggered)
+        {
+            CheckInput();
+            ControlMouvement();
+
+        }
     }
 
 
