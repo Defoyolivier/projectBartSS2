@@ -32,9 +32,9 @@ public class PlayerController : MonoBehaviour
             isRunning = false;
             animatorRef.SetInteger("direction", direction);
             animatorRef.SetBool("isRunning", isRunning);
+            Encounter.Play();
             kirbySong.Stop();
             BackStreetSong.Stop();
-            Encounter.Play();
 
         }
     }
