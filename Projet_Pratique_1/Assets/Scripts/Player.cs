@@ -7,10 +7,10 @@ public class Player : Character
 
     private void Awake()
     {
-        base.m_Health = 5;
-        base.m_Speed = 10;
-        base.m_HaveInput = true;
-        base.m_damage = 1;
+        m_Health = 5;
+        m_Speed = 10;
+        m_HaveInput = true;
+        m_damage = 1;
     }
 
     private void Update()

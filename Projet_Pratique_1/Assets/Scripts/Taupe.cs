@@ -18,7 +18,6 @@ public class Taupe : enemy
 
     private void Awake()
     {
-        
         m_Health = 3;
         m_Speed = 4.5f;
         m_HaveInput = true;
@@ -36,7 +35,8 @@ public class Taupe : enemy
             }
             else
             {
-                Chase();
+
+                ChaseNavMesh();
             }
         }
     }
@@ -50,7 +50,7 @@ public class Taupe : enemy
             transform.LookAt(NewPlayerPos);
             
         }
-        else if (Player.m_OnGround && m_canKnockup && m_distTaupe <= 1 )
+        else if (Player.m_OnGround && m_distTaupe <= 1 )
         {
             Player.KnockUp();
             animatorRef.SetBool("AboveGround", true);
@@ -59,7 +59,15 @@ public class Taupe : enemy
 
     private void ChaseNavMesh()
     {
+        navMeshAgent.SetDestination(Player.transform.position);
+        Vector3 NewPlayerPos = new Vector3(m_PlayerPos.position.x, transform.position.y, m_PlayerPos.position.z);
+        m_distTaupe = Vector3.Distance(NewPlayerPos, transform.position);
 
+        if (Player.m_OnGround && m_canKnockup && m_distTaupe <= 1)
+        {
+            Player.KnockUp();
+            animatorRef.SetBool("AboveGround", true);
+        }
     }
 
     private void Combat()

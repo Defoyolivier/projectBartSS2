@@ -6402,7 +6402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1967825375}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -10066,7 +10066,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueBox: {fileID: 1857987517}
-  NextButton: {fileID: 1166447088}
+  NextButtonGO: {fileID: 0}
+  NextButton: {fileID: 0}
   KingDeText1: Testing stuff
   fullText: Plz work i beg?
   triggered: 0

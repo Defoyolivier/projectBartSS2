@@ -25,7 +25,7 @@ public class Dialogue : MonoBehaviour
         TextDialogue.Add("Kirby:\nEummmm... What are you doing?");
         TextDialogue.Add("King DeDeDe:\nMind your Own stuff kiddo!");
         TextDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-        NextButton.onClick.Addlistener();
+        //NextButton.onClick.AddListener();
 
 
     }
@@ -57,7 +57,7 @@ public class Dialogue : MonoBehaviour
             if (!dialogueBox.activeSelf)
             {
                 dialogueBox.SetActive(true);
-                NextButton.SetActive(true);
+                NextButtonGO.SetActive(true);
             }
 
 

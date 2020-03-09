@@ -8,8 +8,10 @@ public class PlayerController : Character
     [SerializeField] private Sythe m_Syth;
     [SerializeField] private Taupe taupitaupe;
     [SerializeField] private Rigidbody m_PlayerRb;
+    [SerializeField] private Transform ThirdCamView;
     public GameObject PlayerGO;
     public Animator animatorRef;
+    public Animation animRef;
     private Vector3 m_Velocity;
     private float m_MoveSpeed = 4;
     private float m_JumpHeight = 300f;
@@ -31,6 +33,8 @@ public class PlayerController : Character
 
     void PlayerMove()
     {
+        //Vector3 NewCamPos = new Vector3(ThirdCamView.transform.position.x, transform.position.y, -transform.position.z);
+        //transform.LookAt(NewCamPos);
         m_Velocity.x = 0;
         m_Velocity.y = 0;
         m_Velocity.z = 0;
