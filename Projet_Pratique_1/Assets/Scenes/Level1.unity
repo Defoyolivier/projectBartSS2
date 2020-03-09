@@ -465,6 +465,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2585745844095440392, guid: b8ccde09916b81244a0bb00e321010d0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1636736298}
+    - target: {fileID: 2585745844824314383, guid: b8ccde09916b81244a0bb00e321010d0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 698893537}
     - target: {fileID: 5442664151726584674, guid: b8ccde09916b81244a0bb00e321010d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -545,16 +555,6 @@ PrefabInstance:
       propertyPath: m_FollowOffset.z
       value: -11.109996
       objectReference: {fileID: 0}
-    - target: {fileID: 2585745844095440392, guid: b8ccde09916b81244a0bb00e321010d0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 1636736298}
-    - target: {fileID: 2585745844824314383, guid: b8ccde09916b81244a0bb00e321010d0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 698893537}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ccde09916b81244a0bb00e321010d0, type: 3}
 --- !u!1001 &1478815476
