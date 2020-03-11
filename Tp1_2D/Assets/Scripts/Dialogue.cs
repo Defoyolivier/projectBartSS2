@@ -5,26 +5,41 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
-    [SerializeField] private GameObject DialogueBox;
-    [SerializeField] private GameObject NextButtonGO;
-    [SerializeField] private Button NextButton;
-    public string KingDeText1 = "Testing stuff";
+    [SerializeField] private GameObject dialogueBox;
+    [SerializeField] private GameObject nextButtonGO;
+    [SerializeField] private Button nextButton;
+    public string kingDeText1 = "Testing stuff";
     private string currentText = "";
     public string fullText;
     public bool triggered = false;
-    public List<string> TextDialogue;
+    public List<string> textDialogue;
     private int indexText = 0;
     private bool dialogue = true;
-    private Coroutine DialogueCoRout;
-    public bool NextDialogue = true;
+    private Coroutine dialogueCoRout;
+    public bool nextDialogue = false;
+    private bool firstDialogue = true;
 
 
 
     private void Start()
     {
-        TextDialogue.Add("Kirby:\nEummmm... What are you doing?");
-        TextDialogue.Add("King DeDeDe:\nMind your Own stuff kiddo!");
-        TextDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nEummmm... What are you doing?");
+        textDialogue.Add("King DeDeDe:\nMind your Own stuff kiddo!");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+        textDialogue.Add("Kirby:\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
         //NextButton.onClick.AddListener();
 
 
@@ -32,56 +47,55 @@ public class Dialogue : MonoBehaviour
 
     private void Update()
     {
+        CheckTrigger();
+    }
+
+    private void CheckTrigger()
+    {
         if (triggered)
         {
-            if (DialogueCoRout == null)
+            if (dialogueCoRout == null)
             {
-                DialogueCoRout = StartCoroutine(ShowText(TextDialogue, DialogueBox));
-
-
-            }
-        }
-    }
-
-    public bool ButtonClick()
-    {
-        return NextDialogue;
-    }
-
-
-    IEnumerator ShowText(List<string> i_Text, GameObject dialogueBox)
-    {
-        for(int dialogue = 0; dialogue < 10; dialogue++)
-        {
-
-            if (!dialogueBox.activeSelf)
-            {
-                dialogueBox.SetActive(true);
-                NextButtonGO.SetActive(true);
-            }
-
-
-            fullText = i_Text[indexText];
-            
-            if (ButtonClick())
-            {
-                for(int i = 0; i <= fullText.Length; i++)// typeWritter text
+                if (nextDialogue)
                 {
-                    currentText = fullText.Substring(0, i);
-                    dialogueBox.GetComponentInChildren<Text>().text = currentText;
-
-                    yield return new WaitForSeconds(0.1f);
-            
+                    StopCoroutine(dialogueCoRout);
+                    indexText++;
+                    nextDialogue = false;
                 }
-                NextDialogue = false;
+                else
+                {
+                    dialogueCoRout = StartCoroutine(ShowText(textDialogue, dialogueBox, indexText));
+
+                }
+
             }
 
-
-            indexText++;
         }
+    }
 
+
+    IEnumerator ShowText(List<string> i_Text, GameObject dialogueBox, int indexText)
+    {
+
+
+        if (!dialogueBox.activeSelf)
+        {
+            dialogueBox.SetActive(true);
+            nextButtonGO.SetActive(true);
+        }
+  
+        fullText = i_Text[indexText];
+        for (int i = 0; i <= fullText.Length; i++)// typeWritter text
+        {
+            currentText = fullText.Substring(0, i);
+            dialogueBox.GetComponentInChildren<Text>().text = currentText;
+
+            yield return new WaitForSeconds(0.1f);
+            
+        }
 
         
+
         yield return true;
     }
 
