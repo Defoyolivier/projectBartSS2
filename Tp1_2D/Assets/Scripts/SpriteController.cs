@@ -13,67 +13,52 @@ public class SpriteController : MonoBehaviour
     private Vector3 position = Vector3.zero;
     private int direction = 0;
 
-    private void Start()
-    {
-        for (int i = 0; i < spriteRenderer.Length; i++)
-        {
+    private void Start(){
+        for (int i = 0; i < spriteRenderer.Length; i++){
             position = spriteRenderer[i].transform.position;
             position.x += spriteRenderer[i].sprite.bounds.size.x * i;
             spriteRenderer[i].transform.position = position;
         }
     }
-    private void Update()
-    {
-        if (!dialogue.triggered)
-        {
+    private void Update(){
+        CheckTrigger();
+    }
+    private void CheckTrigger(){
+        if (!dialogue.triggered){
             CheckInput();
             ControlMouvement();
-
         }
     }
 
-
-    private void CheckInput()
-    {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
+    private void CheckInput(){
+        if (Input.GetKey(KeyCode.RightArrow)){
             direction = -1;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
-        {
+        else if (Input.GetKey(KeyCode.LeftArrow)){
             direction = 1;
         }
-        else
-        {
+        else{
             direction = 0;
         }
-
     }
 
-    private void ControlMouvement()
-    {
-        for (int i = 0; i < spriteRenderer.Length; i++)
-        {
+    private void ControlMouvement(){
+        for (int i = 0; i < spriteRenderer.Length; i++){
             position = spriteRenderer[i].transform.position;
             position.x += direction * speed * Time.deltaTime;
             spriteRenderer[i].transform.position = position;
         }
 
-        for (int i = 0; i < spriteRenderer.Length; i++)
-        {
-            if (direction == -1)
-            {
-                if (spriteRenderer[i].transform.position.x < minSpritePositionX)
-                {
+        for (int i = 0; i < spriteRenderer.Length; i++){
+            if (direction == -1){
+                if (spriteRenderer[i].transform.position.x < minSpritePositionX){
                     position = spriteRenderer[i].transform.position;
                     position.x += spriteRenderer[i].sprite.bounds.size.x * spriteRenderer.Length;
                     spriteRenderer[i].transform.position = position;
                 }
             }
-            else if (direction == 1)
-            {
-                if (spriteRenderer[i].transform.position.x > maxSpritePositionX)
-                {
+            else if (direction == 1){
+                if (spriteRenderer[i].transform.position.x > maxSpritePositionX){
                     position = spriteRenderer[i].transform.position;
                     position.x -= spriteRenderer[i].sprite.bounds.size.x * spriteRenderer.Length;
                     spriteRenderer[i].transform.position = position;
@@ -84,6 +69,5 @@ public class SpriteController : MonoBehaviour
             position.x += direction * speed * Time.deltaTime;
             spriteRenderer[i].transform.position = position;
         }
-
     }
 }
